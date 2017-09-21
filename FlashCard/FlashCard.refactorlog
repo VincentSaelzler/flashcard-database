@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f4704c29-3408-40d9-be35-4415e6c10d7c" ChangeDateTime="09/18/2017 00:25:10">
+    <Property Name="ElementName" Value="[dbo].[CK_FlashCard_Column]" />
+    <Property Name="ElementType" Value="SqlCheckConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[FlashCard]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[CK_FlashCard_Product]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e0c2387f-61e4-4d45-8db8-1836c3db5709" ChangeDateTime="09/18/2017 01:16:05">
+    <Property Name="ElementName" Value="[dbo].[Quiz].[Person]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Quiz]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PersonId" />
+  </Operation>
+</Operations>
