@@ -14,4 +14,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="PersonId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="61a8fd81-1fff-4b96-95ce-79bc0709a711" ChangeDateTime="09/30/2017 03:30:57">
+    <Property Name="ElementName" Value="[dbo].[Question].[FlashCardId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Question]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Multiplier" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8db5537f-7d8c-43c0-8a23-2f5f6302c544" ChangeDateTime="09/30/2017 03:31:56">
+    <Property Name="ElementName" Value="[dbo].[Question].[Response]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Question]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Product" />
+  </Operation>
 </Operations>
