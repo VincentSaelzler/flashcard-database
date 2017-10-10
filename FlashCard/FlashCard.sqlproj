@@ -64,6 +64,8 @@
     <Build Include="FlashCard.sql" />
     <Build Include="Quiz.sql" />
     <Build Include="Student.sql" />
+    <Build Include="Util.sql" />
+    <Build Include="DeleteAllTables.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="FlashCard.refactorlog" />
