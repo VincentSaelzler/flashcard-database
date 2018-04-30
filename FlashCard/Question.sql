@@ -6,5 +6,5 @@
     [Multiplier] INT NOT NULL, 
     [Multiplicand] INT NOT NULL, 
     [Response] INT NULL, 
-    CONSTRAINT [FK_Question_Round] FOREIGN KEY ([RoundId]) REFERENCES [Round]([Id]), 
+    CONSTRAINT [FK_Question_Round] FOREIGN KEY ([RoundId]) REFERENCES [Round]([Id])  ON DELETE CASCADE 
 )

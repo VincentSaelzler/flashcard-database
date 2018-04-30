@@ -5,5 +5,5 @@
     [Started] DATETIME2 NOT NULL, 
     [Finished] DATETIME2 NULL, 
     [PersonId] INT NULL, 
-    CONSTRAINT [FK_Quiz_Person] FOREIGN KEY (PersonId) REFERENCES [Student]([Id])
+    CONSTRAINT [FK_Quiz_Person] FOREIGN KEY (PersonId) REFERENCES [Student]([Id])  ON DELETE CASCADE
 )
